@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <style>
+        /* Global Background Color */
+        body {
+            background-color: rgb(174, 90, 125); /* Same background color as header */
+        }
+
+        .breadcrumb-wrapper {
+            background-color: rgb(174, 90, 125); /* Ensure header keeps the same color */
+        }
+
+        .payment-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        .payment-section {
+            background-color: #f7f7f7;
+            padding: 50px 0;
+        }
+
+        .payment-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .submit-btn {
+            background-color: #68eb5c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+
+        .paypal-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-section-1">
+        <div class="container">
+            <div id="header-sticky" class="header-1">
+                <div class="container">
+                    <div class="mega-menu-wrapper">
+                        <div class="header-main">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="index.html" class="header-logo">
+     <img src="https://images.squarespace-cdn.com/content/v1/5e53da2e922842434f3d7d88/1582554232317-AND5U7UB0Q1G5L1O3W0K/2020+BIG+logo+no+strapline+transparent.png?format=1500w" width="200" height="75" alt="Big Alliance">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                <div class="mean__menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">
+                                                        Home
+                                                    </a> 
+                                                </li> 
+                                                <li>
+                                                    <a href="about.html">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a class="active" href="campians.html">
+                                                        Campains
+                                                        <i class="fa-regular fa-plus"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a class="active" href="campians.html">Causes</a></li>
+                                                        <li><a href="causes-details.html">Causes Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a href="#">
+                                                        Pages
+                                                        <i class="fa-regular fa-plus"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li class="has-dropdown">
+                                                            <a href="team.html">
+                                                                Our Volunteer
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="team.html">Volunteer</a></li>
+                                                                <li><a href="team-details.html">Volunteer Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                                        <li><a href="faq.html">Faq's</a></li>
+                                                        <li><a href="error.html">Error Page</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    
+                                                    <ul class="submenu">
+                                                        <li><a href="blog.html">Blog</a></li>
+                                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <div class="btn-wrapper wow fadeInUp" data-wow-delay=".5s">
+                                        <a href="causes-details.html"> <span class="theme-btn style3"> Donate Now
+                                            </span><span class="arrow-btn style2"><i
+                                                    class="fa-solid fa-arrow-up-right"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="header__hamburger d-xl-block my-auto">
+                                    <div class="sidebar__toggle">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb-wrapper" style="background-color: rgb(207, 142, 66);">
+        <div class="container">
+            <div class="page-heading">
+                <div class="shape d-none d-xxl-block cir36"><img src="assets/img/shape/breadcumb.svg" alt="shape"></div>
+                <div class="title">
+                    <div class="title-heading wow fadeInLeft" data-wow-delay=".3s">Causes</div>
+                    <h1 class="wow fadeInLeft" data-wow-delay=".6s">Help & Donate Now Find The Popular Cause</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Causes Section    S T A R T -->
+       <section class="payment-section" style="background-color: rgb(212, 147, 101);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 payment-container">
+                    <h2 class="text-center mb-4">Complete Your Donation</h2>
+
+                    <div class="donation-summary mb-3">
+                        <p><strong>Donation Amount:</strong> £100</p>
+                    </div>
+
+                    <!-- PayPal Integration -->
+                    <div class="paypal-container">
+                        <div id="paypal-button-container"></div>
+                    </div>
+
+                    <!-- Personal Info Form -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Donation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=GBP"></script>
+    <script>
+        paypal.Buttons({
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '100.00' // donation amount
+                        }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Donation Successful, Thank you ' + details.payer.name.given_name + '!');
+                });
+            }
+        }).render('#paypal-button-container'); // Renders PayPal button
+    </script>
+</body>
+
+</html>
